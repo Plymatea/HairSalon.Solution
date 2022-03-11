@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Clients\\Details.cshtml",
+      "TargetPath": "Views\\Clients\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
