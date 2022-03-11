@@ -1,8 +1,8 @@
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+// using Microsoft.AspNetCore.Mvc.Rendering;
+// using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using HairSalon.Models;
-using System.Collections.Generic;
+// using System.Collections.Generic;
 using System.Linq;
 
 namespace HairSalon.Controllers
@@ -16,10 +16,10 @@ namespace HairSalon.Controllers
       _db = db;
     }
     
-    public ActionResult Create(int stylist)
+    public ActionResult Create(int id)
     {
       ViewBag.PageTitle = "Eau Claire's: New Client";
-      ViewBag.Stylist = stylist;
+      ViewBag.StylistId = id;
       return View();
     }
 
