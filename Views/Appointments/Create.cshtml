@@ -1,0 +1,18 @@
+@{
+  Layout = "_Layout";
+}
+@using HairSalon.Models
+@model HairSalon.Models.Appointment
+
+<h4>Add a New Appointment for @ViewBag.ClientName and @ViewBag.ClientName</h4>
+@using (Html.BeginForm())
+{
+  @Html.Hidden("StylistId", $"{ViewBag.StylistId}")
+  @Html.Hidden("ClientId", $"{ViewBag.ClientId}")
+  @Html.LabelFor(model => model.DateTime)
+  @Html.TextBoxFor(model => model.DateTime, new { @type="date", @class = "form-control datepicker" } )
+
+  <input type="submit" value="Add new Appointment" />
+}
+<hr/>
+<p>@Html.ActionLink("Show all Stylists", "Index", "Stylists")</p>

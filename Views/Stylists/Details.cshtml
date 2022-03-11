@@ -5,26 +5,48 @@
 @model HairSalon.Models.Stylist
 
 
-<h4>Stylist Details</h4>
+<h4>@Html.DisplayFor(model => model.Name)</h4>
 <hr />
-<ul>
-  <li>@Html.DisplayNameFor(m => m.Name): @Html.DisplayFor(model => model.Name)</li>
-</ul>
-<hr/>
-@if (@Model.Clients.Count == 0)
-{
-  <h5>No clients yet!</h5>
-}  
-else
-{
-  <h5>Clients for @Html.DisplayFor(model => model.Name)</h5>
-  <ul>
-    @foreach(Client client in Model.Clients)
-    {
-      <li>@Html.ActionLink($"{client.Name}", "Details", "Clients", new { id = client.ClientId })</li>
-    }
-  </ul>
-}
+  <div class="row">
+    <div class="col-sm">
+      <h5>Details</h5>
+      <ul>
+        <li>@Html.DisplayNameFor(m => m.Name): @Html.DisplayFor(model => model.Name)</li>
+        </ul>
+    </div>
+    <div class="col-sm">
+      @if (@Model.Appointments.Count == 0)
+      {
+        <h5>No Appointments yet!</h5>
+      }  
+      else
+      {
+        <h5>Appointments</h5>
+        <ul>
+          @foreach(Appointment appointment in Model.Appointments)
+          {
+            <li>@appointment.DateTime with @appointment.Client.Name</li>
+          }
+        </ul>
+      }
+    </div>
+    <div class="col-sm">
+      @if (@Model.Clients.Count == 0)
+      {
+        <h5>No clients yet!</h5>
+      }  
+      else
+      {
+        <h5>Clients</h5>
+        <ul>
+          @foreach(Client client in Model.Clients)
+          {
+            <li>@Html.ActionLink($"{client.Name}", "Details", "Clients", new { id = client.ClientId })</li>
+          }
+        </ul>
+      }
+    </div>
+  </div>
 <hr/>
 <p>@Html.ActionLink("Add new Client", "Create", "Clients", new { id = Model.StylistId})</p>  
 <p>@Html.ActionLink("Back to Stylists", "Index")</p>

@@ -11,4 +11,5 @@
   <li>@Html.DisplayNameFor(m => m.Name): @Html.DisplayFor(model => model.Name)</li>
 </ul>
 <hr/>
+<p>@Html.ActionLink("Create Appointment", "Create", "Appointments", new { clientid = Model.ClientId, stylistId = Model.StylistId, clientName = Model.Name, stylistName = Model.Stylist.Name })</p>
 <p>@Html.ActionLink("Back to Stylists", "Index", "Stylists")</p>
