@@ -15,18 +15,11 @@ namespace HairSalon.Controllers
     {
       _db = db;
     }
-
-    // public ActionResult Index()
-    // {
-    //   List<Client> model = _db.Clients.Include(c =>  c.Stylists).ToList();
-    //   // List<Client> model = _db.Clients.ToList();
-    //   ViewBag.PageTitle = "View All Clients";
-    //   return View(model);
-    // }
-
-    public ActionResult Create(int id)
+    
+    public ActionResult Create(int stylist)
     {
-      ViewBag.StylistId = id;
+      ViewBag.PageTitle = "Eau Claire's: New Client";
+      ViewBag.Stylist = stylist;
       return View();
     }
 
@@ -40,6 +33,7 @@ namespace HairSalon.Controllers
 
     public ActionResult Details(int id)
     {
+      ViewBag.PageTitle = "Eau Claire's: Client Details";
       Client thisClient = _db.Clients.FirstOrDefault(c => c.ClientId == id);
       return View(thisClient);
     }
