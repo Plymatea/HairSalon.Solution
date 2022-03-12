@@ -44,3 +44,4 @@ C:\Users\Person\Desktop\Epicodus\HairSalon\obj\Debug\net5.0\Razor\Views\Stylists
 C:\Users\Person\Desktop\Epicodus\HairSalon\obj\Debug\net5.0\Razor\Views\Stylists\Index.cshtml.g.cs
 C:\Users\Person\Desktop\Epicodus\HairSalon\obj\Debug\net5.0\Razor\Views\Stylists\Details.cshtml.g.cs
 C:\Users\Person\Desktop\Epicodus\HairSalon\obj\Debug\net5.0\Razor\Views\Clients\Details.cshtml.g.cs
+C:\Users\Person\Desktop\Epicodus\HairSalon\obj\Debug\net5.0\Razor\Views\Appointments\Create.cshtml.g.cs
