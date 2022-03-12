@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\HairSalon.csproj",
+  "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\HairSalon.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,43 +15619,43 @@
   "RootNamespace": "HairSalon",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Clients\\Create.cshtml",
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Clients\\Create.cshtml",
       "TargetPath": "Views\\Clients\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Stylists\\Create.cshtml",
-      "TargetPath": "Views\\Stylists\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Stylists\\Details.cshtml",
-      "TargetPath": "Views\\Stylists\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Appointments\\Create.cshtml",
-      "TargetPath": "Views\\Appointments\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Clients\\Details.cshtml",
-      "TargetPath": "Views\\Clients\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon\\Views\\Stylists\\Index.cshtml",
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Stylists\\Create.cshtml",
+      "TargetPath": "Views\\Stylists\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Appointments\\Create.cshtml",
+      "TargetPath": "Views\\Appointments\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Stylists\\Index.cshtml",
       "TargetPath": "Views\\Stylists\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Clients\\Details.cshtml",
+      "TargetPath": "Views\\Clients\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Person\\Desktop\\Epicodus\\HairSalon.Solutions\\HairSalon\\Views\\Stylists\\Details.cshtml",
+      "TargetPath": "Views\\Stylists\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
